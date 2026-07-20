@@ -16,7 +16,7 @@ This script creates an **isolated Linux network namespace** with its own veth pa
 ┌─────────────────────────────────────────────────┐
 │  Network Namespace (kt-bypass)                  │
 │                                                 │
-│  KakaoTalk (Wine) ──► veth-kt-n ──► NAT ──────┐│
+│  KakaoTalk (Wine) ──► veth-kt-n ──► NAT  ──────┐│
 │                                                 ││
 └─────────────────────────────────────────────────┘│
                                                    │
@@ -46,7 +46,7 @@ Key technical details:
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bottles-bypass-tailscale.git
+git clone https://github.com/alessio-ds/bottles-bypass-tailscale.git
 cd bottles-bypass-tailscale
 chmod +x bottles-bypass-tailscale.sh
 ```
